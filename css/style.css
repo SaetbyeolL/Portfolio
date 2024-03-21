@@ -119,6 +119,7 @@ button:focus {
 }
 
 
+
 /* Home */
 #home {
     background-color: var(--color-primary);
@@ -164,6 +165,7 @@ button:focus {
     color: var(--color-text);
     outline: 2px solid var(--color-accent);
 }
+
 
 
 /* About */
@@ -219,6 +221,7 @@ button:focus {
     color: var(--color-primary);
     font-size: 0.8rem;
 }
+
 
 
 /* Skills */
@@ -438,9 +441,6 @@ button:focus {
 
 
 
-
-
-
 /* Footer */
 #contact {
     background-color: var(--color-primary);
@@ -463,6 +463,95 @@ button:focus {
     color: var(--color-accent);
 }
 
+
+
+
+/* Styling depending on the browser width*/
+@media screen and (max-width: 768px) {
+
+    /* Common */
+    .section {
+        padding: 3rem 2rem;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .description {
+        font-size: 1rem;
+    }
+
+    /*Header*/
+    .header {
+        flex-direction: column;
+        align-items: start;
+    }
+    .header__menu {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 4rem;
+        gap: 1rem;
+    }
+    .header__nav {
+        width: 100%;
+    }
+
+    /* Home */
+    #home {
+        padding-bottom: 3rem;
+    }
+    .home__title {
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    /* About */
+    .majors {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .major {
+        max-width: 25rem;
+        width: 100%;
+        
+    }
+    .job {
+        justify-content: center;
+    }
+
+    /* Skills */
+    .skills {
+        grid-template-columns: 1fr;
+    }
+
+    /* Work */
+    .categories {
+        flex-direction: column;
+    }
+    .category {
+        width: 100%;
+    }
+    .projects {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Testimonial */
+    .testimonial {
+        flex-direction: column;
+    }
+    .testimonial:nth-child(even) .testimonial__img {
+        order: 0;
+    }
+
+    /* Arrow Up */
+    .arrow-up {
+        font-size: 1.3rem;
+        width: 2rem;
+        height: 2rem;
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
 
 
 
