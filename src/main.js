@@ -1,4 +1,4 @@
-// Header: Apply dark styling to the header when scrolling down
+//Header: Apply dark styling to the header when scrolling down
 const header = document.querySelector('.header');
 const headerHeight = header.getBoundingClientRect().height;
 document.addEventListener('scroll', () => {
@@ -18,7 +18,6 @@ document.addEventListener('scroll', ()=> {
 });
 
 
-
 //Arrow-up: Make the arrow up button transparent when scrolling down
 const arrowUp = document.querySelector('.arrow-up');
 document.addEventListener('scroll', ()=> {
@@ -28,6 +27,26 @@ document.addEventListener('scroll', ()=> {
         arrowUp.style.opacity = 0;
     }
 });
+
+
+//Navbar: Handling toggle button clicks
+const navbarMenu = document.querySelector('.header__menu');
+const navbarToggle = document.querySelector('.header__toggle');
+navbarToggle.addEventListener('click', ()=> {
+    navbarMenu.classList.toggle('open');
+})
+
+
+//Navbar: Closing the menu automatically when a Navbar menu item is clicked
+navbarMenu.addEventListener('click', ()=> {
+    navbarMenu.classList.remove('open');
+})
+
+
+
+
+
+
 
 
 
