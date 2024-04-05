@@ -25,19 +25,18 @@ function handleActiveSelection(target) {
 //filtering for projects
 function filterProjects(filter) {
     projectsContainer.classList.add('anim-out'); //css animation
-    projects.forEach(project=>{
-        if(filter === 'all'||filter===project.dataset.type){
+    projects.forEach(project => {
+        const projectCategories = project.dataset.type.split(' ');
+        if (filter === 'all' || projectCategories.includes(filter)) {
             project.style.display = 'block';
         } else {
             project.style.display = 'none';
         }
     });
-    setTimeout(()=>{
+    setTimeout(() => {
         projectsContainer.classList.remove('anim-out');
     }, 250);
 }
-
-
 
 
 
