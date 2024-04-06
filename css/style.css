@@ -274,6 +274,7 @@ button:focus {
 .job__period {
   color: var(--color-primary);
   font-size: 0.8rem;
+  text-align: left;
 }
 
 /* Skills */
@@ -355,8 +356,8 @@ button:focus {
   background-color: var(--color-accent);
 }
 
-/* Project */
-#project {
+/* Portfolio */
+#portfolio {
   background-color: var(--color-primary);
   color: var(--color-text);
 }
@@ -462,11 +463,11 @@ button:focus {
 }
 
 /* Work */
-.testimonials {
+.works {
   margin: 3rem;
 }
 
-.testimonial {
+.work {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -474,19 +475,19 @@ button:focus {
 
 }
 
-.testimonial__img {
+.work__img {
   width: 150px;
   height: 110px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
 }
 
-.testimonial__bubble {
+.work__bubble {
   padding: 1rem;
   border-radius: 6px;
   /* box-shadow: rgba(0, 0, 0, 0.25) 0px 3px 8px; */
 }
 
-.testimonial__bubble__name {
+.work__bubble__name {
   color: var(--color-accent);
   font-weight: bold;
   filter: brightness(70%);
@@ -592,7 +593,7 @@ button:focus {
     grid-template-columns: 1fr;
   }
 
-  /* Work */
+  /* Portfolio */
   .categories {
     flex-direction: column;
   }
@@ -603,11 +604,11 @@ button:focus {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  /* Testimonial */
-  .testimonial {
+  /* Work */
+  .work {
     flex-direction: column;
   }
-  .testimonial:nth-child(even) .testimonial__img {
+  .work:nth-child(even) .work__img {
     order: 0;
   }
 
