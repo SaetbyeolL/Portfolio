@@ -206,6 +206,7 @@ button:focus {
   font-size: 1.3rem;
 }
 
+#download,
 .home__contact {
   display: inline-block;
   background-color: var(--color-accent);
@@ -214,8 +215,13 @@ button:focus {
   padding: 0.5rem 1rem;
   font-weight: bold;
   border-radius: 3px;
+  line-height: 1.5rem;
+  font-family:"Open Sans", sans-serif;
+  font-size: 16px;
+  width: 121px;
 }
 
+#download:hover,
 .home__contact:hover {
   background-color: transparent;
   color: var(--color-text);
@@ -621,6 +627,64 @@ button:focus {
     right: 1rem;
   }
 }
+
+
+
+
+/* Resume */
+/* #download {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-black);
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+  line-height: 1.5rem;
+}
+
+#download:hover {
+  background-color: transparent;
+  color: var(--color-text);
+  outline: 2px solid var(--color-accent);
+}
+
+
+.home__contact {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-black);
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 3px;
+  line-height: 1.5rem;
+}
+
+.home__contact:hover {
+  background-color: transparent;
+  color: var(--color-text);
+  outline: 2px solid var(--color-accent);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
