@@ -3,7 +3,7 @@ document.getElementById("download").addEventListener("click", function() {
     const link = document.createElement("a");
 
     link.href = resumeFilePath;
-    link.download = "SaetbyeolLim_RESUME.pdf";
+    link.download = "RESUME_SaetbyeolLim.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
