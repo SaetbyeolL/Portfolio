@@ -1,5 +1,5 @@
 # Portfolio
-Personal portfolio website using Javascript, HTML, CSS
+Personal portfolio website using Javascript, HTML, CSS (Sep 1 2024 update)
 
 https://saetbyeoll.github.io/Portfolio/    <- Please visit website ⭐
 
