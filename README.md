@@ -1,4 +1,4 @@
-# Portfolio
+# Portfolio  ( Update Sep 9 2024)
 Personal portfolio website using Javascript, HTML, CSS
 
 https://saetbyeoll.github.io/Portfolio/    <- Please visit website ⭐
