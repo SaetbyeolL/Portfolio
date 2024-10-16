@@ -1,6 +1,6 @@
 <h1>Portfolio   ( Update Sep 9 2024) </h1>
 <h3>Personal portfolio website using Javascript, HTML, CSS</h3>
-<div>https://saetbyeoll.github.io/Portfolio/    <- Please visit website ⭐</div>
+<div>https://saetbyeoll.github.io/Portfolio/    <- Please visit website  ⭐</div>
 
 <br>
 <div align="center">
